@@ -3,6 +3,7 @@ const text = document.getElementById('text');
 
 fontSizeControlEl.addEventListener('input', () => {
     text.style.fontSize = fontSizeControlEl.value + "px";
+
 })
 
 
